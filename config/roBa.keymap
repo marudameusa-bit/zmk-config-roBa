@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E             &kp R                        &kp T                                                      &kp Y                      &kp U  &lt 5 I    &kp O       &kp P
+&kp Q      &kp W           &kp E             &kp R                        &kp T                                                      &kp Y                      &kp U  &lt 4 I    &kp O       &kp P
 &kp A      &kp S           &kp D             &kp F                        &kp G        &kp UP                    &kp DOWN            &kp H                      &kp J  &kp K      &kp L       &kp SQT
 &kp Z      &kp X           &kp C             &kp V                        &kp B        &kp LEFT                  &kp RIGHT           &kp N                      &kp M  &kp COMMA  &kp PERIOD  &kp QUESTION
-&kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_ALT DEL  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &mt LEFT_WIN ENTER  &mt RIGHT_SHIFT BACKSPACE                                &lt 6 AT_SIGN
+&kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_ALT DEL  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &mt LEFT_WIN ENTER  &mt RIGHT_SHIFT BACKSPACE                                &lt 5 AT_SIGN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,9 +91,9 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                  &kp NUMBER_6  &kp N7                &kp N8     &kp N9          &kp N0
-&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp EQUAL  &kp UP_ARROW      &kp DOWN   &kp LCTRL     &kp NON_US_BACKSLASH  &kp GRAVE  &kp UNDERSCORE  &kp F10
-&trans        &trans        &trans        &trans        &trans     &kp LEFT          &kp RIGHT  &trans        &trans                &mkp MB1   &trans          &mkp MB2
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                  &kp NUMBER_6  &kp N7                &kp N8          &kp N9     &kp N0
+&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp EQUAL  &kp UP_ARROW      &kp DOWN   &kp LCTRL     &kp NON_US_BACKSLASH  &kp UNDERSCORE  &kp GRAVE  &kp PIPE
+&trans        &trans        &trans        &trans        &trans     &kp LEFT          &kp RIGHT  &trans        &trans                &mkp LCLK       &mkp MCLK  &mkp RCLK
 &trans        &trans        &trans        &trans        &trans     &trans            &trans     &trans                                                         &trans
             >;
         };
@@ -116,15 +116,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        MOUSE {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
-            >;
         };
 
         SCROLL {
