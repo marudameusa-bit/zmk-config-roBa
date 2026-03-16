@@ -107,19 +107,19 @@
             >;
         };
 
-        ARROW {
+        FUNCTION {
             bindings = <
-&kp F1          &kp F2                  &kp F3          &kp F4                   &kp F5                       &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                              &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp ESC      &kp CAPSLOCK  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20
+&trans   &trans   &trans   &trans   &trans   &trans       &trans        &trans   &trans   &trans   &trans   &trans
+&trans   &trans   &trans   &trans   &trans   &trans       &trans        &trans                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
             label = "FUNCTION";
         };
 
-        layer_6 {
+        SETTING {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
