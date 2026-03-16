@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E             &kp R                        &kp T                                                      &kp Y                      &kp U  &lt 4 I    &kp O       &kp P
+&kp Q      &kp W           &kp E             &kp R                        &kp T                                                      &kp Y                      &kp U  &lt 0 I    &kp O       &kp P
 &kp A      &kp S           &kp D             &kp F                        &kp G        &kp UP                    &kp DOWN            &kp H                      &kp J  &kp K      &kp L       &kp SQT
 &kp Z      &kp X           &kp C             &kp V                        &kp B        &kp LEFT                  &kp RIGHT           &kp N                      &kp M  &kp COMMA  &kp PERIOD  &kp QUESTION
-&kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_ALT DEL  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &mt LEFT_WIN ENTER  &mt RIGHT_SHIFT BACKSPACE                                &lt 5 AT_SIGN
+&kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_ALT DEL  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &mt LEFT_WIN ENTER  &mt RIGHT_SHIFT BACKSPACE                                &lt 4 AT_SIGN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -109,22 +109,14 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
+&kp F1          &kp F2                  &kp F3          &kp F4                   &kp F5                       &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
-            >;
+            label = "FUNCTION";
         };
 
         layer_6 {
