@@ -40,7 +40,7 @@
         };
 
         click3 {
-            bindings = <&lt 4 MINUS>;
+            bindings = <&lt 5 MINUS>;
             key-positions = <31 33>;
         };
     };
