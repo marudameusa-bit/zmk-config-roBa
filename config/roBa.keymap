@@ -29,9 +29,14 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        click1 {
+            bindings = <&mkp MB1>;
+            key-positions = <31 32>;
+        };
+
+        click2 {
+            bindings = <&mkp MB2>;
+            key-positions = <32 33>;
         };
     };
 
