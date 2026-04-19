@@ -42,7 +42,7 @@
 
         scroll {
             bindings = <&lt 5 RCTRL>;
-            key-positions = <21 19>;
+            key-positions = <31 33>;
         };
     };
 
