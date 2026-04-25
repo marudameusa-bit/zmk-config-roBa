@@ -1,6 +1,7 @@
-# ver1.0 こぴっただけ
-# ver1.1
-
+/*
+ ver1.0 こぴっただけ
+ ver1.1
+*/
 #pragma once
 
 #include <dt-bindings/zmk/hid_usage.h>
