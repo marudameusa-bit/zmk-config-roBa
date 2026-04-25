@@ -21,6 +21,7 @@
 #define SYS_WAKE (SYSTEM_WAKE_UP)
 
 /* Keyboard a and A */
+// ▼ver1.1▼
 #define A (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_A))
 
 /* Keyboard b and B */
