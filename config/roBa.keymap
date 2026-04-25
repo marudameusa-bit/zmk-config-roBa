@@ -1,13 +1,16 @@
 /*
  * ver1.1
  */
+// ▼【ver1.1】mod▼
+//#include <dt-bindings/zmk/keys.h>
+
+#include "keys.h"
+
+// ▲【ver1.1】mod▲
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
-// ▼【ver1.1】mod▼
-//#include <dt-bindings/zmk/keys.h>
-#include "keys.h"
-// ▲【ver1.1】mod▲
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
@@ -128,10 +131,10 @@
 
         layer_5 {
             bindings = <
-&kp INT_YEN  &kp INT_YEN  &kp INTERNATIONAL_3  &trans  &trans                      &trans  &trans  &trans    &trans  &trans
-&trans       &trans       &trans               &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
-&trans       &trans       &trans               &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
-&trans       &trans       &trans               &trans  &trans  &trans      &trans  &trans                            &trans
+&kp INT_YEN  &kp INT_YEN  &trans  &trans  &trans                      &trans  &trans  &trans    &trans  &trans
+&trans       &trans       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
+&trans       &trans       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
+&trans       &trans       &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
         };
     };
