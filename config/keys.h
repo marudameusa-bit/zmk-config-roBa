@@ -27,7 +27,7 @@
 // ▲ver1.1 mod▲
 
 /* Keyboard b and B */
-#define B (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_B))
+#define A (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_B))
 
 /* Keyboard c and C */
 #define C (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_C))
