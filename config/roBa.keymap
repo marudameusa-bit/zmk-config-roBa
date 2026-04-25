@@ -6,7 +6,7 @@
 #include <dt-bindings/zmk/bt.h>
 // ▼【ver1.1】mod▼
 //#include <dt-bindings/zmk/keys.h>
-#include <keys.h>
+#include "keys.h"
 // ▲【ver1.1】mod▲
 #include <dt-bindings/zmk/pointing.h>
 
