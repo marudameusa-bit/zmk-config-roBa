@@ -70,6 +70,11 @@
             bindings = <&lt 5 RCTRL>;
             key-positions = <31 33>;
         };
+
+        layer5 {
+            bindings = <&lt 5 A>;
+            key-positions = <42 41>;
+        };
     };
 
     macros {
