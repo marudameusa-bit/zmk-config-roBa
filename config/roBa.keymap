@@ -105,7 +105,7 @@
 &kp Q      &kp W           &kp E             &kp R       &kp T                                           &kp Y                      &kp U  &kp I      &kp O       &kp P
 &kp A      &kp S           &kp D             &kp F       &kp G        &kp UP         &kp DOWN            &kp H                      &kp J  &kp K      &kp L       &kp SQT
 &kp Z      &kp X           &kp C             &kp V       &kp B        &kp LEFT       &kp RIGHT           &kp N                      &kp M  &kp COMMA  &kp PERIOD  &kp QUESTION
-&kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_ALT DEL  &lt 1 CAPS  &lt 2 SPACE  &lt 3 TAB      &mt LEFT_WIN ENTER  &mt RIGHT_SHIFT BACKSPACE                                &lt 4 AT_SIGN
+&kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_ALT DEL  &lt 1 CAPS  &lt 2 SPACE  &lt 3 TAB      &mt LEFT_WIN ENTER  &mt RIGHT_SHIFT BACKSPACE                                &lt 4 LEFT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -124,7 +124,7 @@
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH           &kp DOLLAR      &kp PERCENT                                           &kp SQT                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp TILDE
 &trans           &kp LESS_THAN      &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PAGE_UP      &kp PAGE_DOWN  &kp RIGHT_PARENTHESIS  &kp LC(PIPE)          &kp BACKSLASH          &kp GREATER_THAN  &trans
-&trans           &trans             &trans             &trans          &trans                &kp HOME         &kp END        &kp SEMICOLON          &kp COLON             &kp SEMICOLON          &mkp MCLK         &trans
+&trans           &trans             &trans             &trans          &trans                &kp HOME         &kp END        &trans                 &trans                &kp SEMICOLON          &kp SQT           &trans
 &trans           &trans             &trans             &trans          &trans                &trans           &trans         &trans                                                                                &trans
             >;
         };
