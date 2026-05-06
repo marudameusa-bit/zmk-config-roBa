@@ -124,7 +124,7 @@
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH           &kp DOLLAR      &kp PERCENT                                           &kp SQT                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp TILDE
 &trans           &kp LESS_THAN      &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PAGE_UP      &kp PAGE_DOWN  &kp RIGHT_PARENTHESIS  &kp LC(PIPE)          &kp BACKSLASH          &kp GREATER_THAN  &trans
-&trans           &trans             &trans             &trans          &trans                &kp HOME         &kp END        &kp SEMICOLON          &kp COLON             &mkp LCLK              &mkp MCLK         &mkp RCLK
+&trans           &trans             &trans             &trans          &trans                &kp HOME         &kp END        &kp SEMICOLON          &kp COLON             &kp SEMICOLON          &mkp MCLK         &trans
 &trans           &trans             &trans             &trans          &trans                &trans           &trans         &trans                                                                                &trans
             >;
         };
