@@ -92,7 +92,7 @@
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A>;
+            bindings = <&lt 0 A>;
             label = "LT_TO_LAYER_0";
         };
     };
