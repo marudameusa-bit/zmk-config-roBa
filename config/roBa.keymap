@@ -152,10 +152,10 @@
 
         layer_5 {
             bindings = <
-&kp INT_YEN     &kp LANGUAGE_1  &trans          &trans    &trans                      &trans  &trans  &trans    &trans  &trans
-&kp LANG1       &kp LANG2       &kp LANG3       &trans    &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
-&kp LANGUAGE_1  &kp LANGUAGE_2  &kp LANGUAGE_3  &kp INT9  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
-&trans          &trans          &trans          &trans    &trans  &trans      &trans  &trans                            &trans
+&kp INT_YEN     &kp LANGUAGE_1  &kp INTERNATIONAL_1  &kp INT1  &trans                      &trans  &trans  &trans    &trans  &trans
+&kp LANG1       &kp LANG2       &kp LANG3            &trans    &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
+&kp LANGUAGE_1  &kp LANGUAGE_2  &kp LANGUAGE_3       &kp INT9  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
+&trans          &trans          &trans               &trans    &trans  &trans      &trans  &trans                            &trans
             >;
         };
     };
