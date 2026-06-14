@@ -47,7 +47,7 @@
 
         layer5 {
             bindings = <&lt 5 A>;
-            key-positions = <42 41>;
+            key-positions = <17 21>;
         };
 
         layer4 {
