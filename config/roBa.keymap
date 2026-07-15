@@ -176,10 +176,10 @@
 
         macro {
             bindings = <
-&Excel_reduction  &Excel_group    &Excel_redsq    &Excel_reduction  &trans                      &trans  &trans  &trans    &trans  &trans
-&kp LANG1         &kp LANG2       &kp LANG3       &trans            &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
-&kp LANGUAGE_1    &kp LANGUAGE_2  &kp LANGUAGE_3  &kp INT9          &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
-&trans            &trans          &trans          &trans            &trans  &trans      &trans  &trans                            &trans
+&Excel_reduction  &Excel_group     &Excel_redsq     &Excel_reduction  &trans                               &trans  &trans  &trans    &trans  &trans
+&sakura_macro_1   &sakura_macro_2  &sakura_macro_3  &sakura_macro_4   &sakura_macro_5  &trans      &trans  &trans  &trans  &trans    &trans  &trans
+&kp LANGUAGE_1    &kp LANGUAGE_2   &kp LANGUAGE_3   &kp INT9          &trans           &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
+&trans            &trans           &trans           &trans            &trans           &trans      &trans  &trans                            &trans
             >;
         };
     };
