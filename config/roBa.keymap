@@ -8,6 +8,8 @@
     quick-tap-ms = <200>;
 };
 
+&lt { quick-tap-ms = <200>; };
+
 &trackball {
     // automouse-layer = <4>;
 
@@ -118,6 +120,14 @@
             #binding-cells = <0>;
             bindings = <&kp LA(T) &kp T &kp B &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp ENTER>;
             label = "SAKURA_MACRO_5";
+        };
+    };
+
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <1>;
         };
     };
 
