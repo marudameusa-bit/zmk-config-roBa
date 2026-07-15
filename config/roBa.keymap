@@ -64,10 +64,10 @@
             label = "LT_TO_LAYER_0";
         };
 
-        Excel_group: Excell_group {
+        Excel_reduction: Excell_group {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp J &kp D &kp A &kp G &kp G>;
+            bindings = <&kp LA(Y) &kp N5 &kp Y &kp N8>;
             label = "EXCELL_GROUP";
         };
 
@@ -134,10 +134,10 @@
 
         layer_5 {
             bindings = <
-&Excel_group    &kp LANGUAGE_1  &kp INTERNATIONAL_1  &kp INT1  &trans                      &trans  &trans  &trans    &trans  &trans
-&kp LANG1       &kp LANG2       &kp LANG3            &trans    &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
-&kp LANGUAGE_1  &kp LANGUAGE_2  &kp LANGUAGE_3       &kp INT9  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
-&trans          &trans          &trans               &trans    &trans  &trans      &trans  &trans                            &trans
+&Excel_reduction  &kp LANGUAGE_1  &kp INTERNATIONAL_1  &kp INT1  &trans                      &trans  &trans  &trans    &trans  &trans
+&kp LANG1         &kp LANG2       &kp LANG3            &trans    &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
+&kp LANGUAGE_1    &kp LANGUAGE_2  &kp LANGUAGE_3       &kp INT9  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
+&trans            &trans          &trans               &trans    &trans  &trans      &trans  &trans                            &trans
             >;
         };
     };
