@@ -71,13 +71,6 @@
             label = "EXCELL_GROUP";
         };
 
-        sakura_macro_1: sakura_macro_1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(T) &kp T &kp B>;
-            label = "SAKURA_MACRO_1";
-        };
-
         Excel_redsq: Excel_redsq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -90,6 +83,41 @@
             #binding-cells = <0>;
             bindings = <&kp LA(J) &kp P &kp A &kp G &kp G>;
             label = "EXCEL_GROUP";
+        };
+
+        sakura_macro_1: sakura_macro_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(T) &kp T &kp B &kp ENTER>;
+            label = "SAKURA_MACRO_1";
+        };
+
+        sakura_macro_2: sakura_macro_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(T) &kp T &kp B &kp DOWN_ARROW &kp ENTER>;
+            label = "SAKURA_MACRO_2";
+        };
+
+        sakura_macro_3: sakura_macro_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(T) &kp T &kp B &kp DOWN_ARROW &kp DOWN_ARROW &kp ENTER>;
+            label = "SAKURA_MACRO_3";
+        };
+
+        sakura_macro_4: sakura_macro_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(T) &kp T &kp B &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp ENTER>;
+            label = "SAKURA_MACRO_4";
+        };
+
+        sakura_macro_5: sakura_macro_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(T) &kp T &kp B &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp ENTER>;
+            label = "SAKURA_MACRO_5";
         };
     };
 
