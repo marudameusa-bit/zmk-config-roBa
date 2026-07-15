@@ -81,7 +81,7 @@
         Excel_redsq: Excel_redsq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(Y) &kp Y &kp N5 &kp Y &kp N1>;
+            bindings = <&kp LA(Y) &kp N5 &kp Y &kp N1>;
             label = "EXCEL_REDSQ";
         };
 
@@ -146,12 +146,12 @@
             >;
         };
 
-        layer_5 {
+        macro {
             bindings = <
-&Excel_reduction  &kp LANGUAGE_1  &kp INTERNATIONAL_1  &kp INT1  &trans                      &trans  &trans  &trans    &trans  &trans
-&kp LANG1         &kp LANG2       &kp LANG3            &trans    &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
-&kp LANGUAGE_1    &kp LANGUAGE_2  &kp LANGUAGE_3       &kp INT9  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
-&trans            &trans          &trans               &trans    &trans  &trans      &trans  &trans                            &trans
+&Excel_reduction  &Excel_group    &Excel_redsq    &Excel_reduction  &trans                      &trans  &trans  &trans    &trans  &trans
+&kp LANG1         &kp LANG2       &kp LANG3       &trans            &trans  &trans      &trans  &trans  &trans  &trans    &trans  &trans
+&kp LANGUAGE_1    &kp LANGUAGE_2  &kp LANGUAGE_3  &kp INT9          &trans  &trans      &trans  &trans  &trans  &mkp MB1  &trans  &trans
+&trans            &trans          &trans          &trans            &trans  &trans      &trans  &trans                            &trans
             >;
         };
     };
